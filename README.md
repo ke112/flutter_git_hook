@@ -127,6 +127,7 @@ prebuild.dependsOn(runPreCommit)
 
 ### Flutter
 <img src='asserts/flutter_1.png' width='200'></img>
+
 可自定义githook路径和文件名,保持以上路径一致即可
 `pre-commit.py`
 ```
@@ -306,4 +307,5 @@ fi
 
 ### 验证
 分别运行Android和iOS, 都可在此路径下出现这个运行程序, 即可实现真正的git拦截功能
+
 <img src='asserts/git_hook1.png' width='200'></img>
